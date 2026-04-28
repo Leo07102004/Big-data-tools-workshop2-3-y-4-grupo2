@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────
+#  requirements.txt — Workshop 3: YouTube Trending Pipeline
+#  Big Data Tools · Universidad de La Sabana
+# ─────────────────────────────────────────────────────────
+
+# Core Data
+pandas>=2.0.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Orchestration
+prefect>=2.14.0
+
+# Visualization
+plotly>=5.18.0
+
+# Spatial
+geopandas>=0.14.0
+folium>=0.15.0
+
+# Database
+pymongo[srv]>=4.5.0
+dnspython>=2.4.0
+python-dotenv>=1.0.0
+
+# Kaggle API
+kaggle>=1.5.16
