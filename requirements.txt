@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────
-#  requirements.txt — Workshop 3: YouTube Trending Pipeline
+#  requirements.txt — Workshop 2, 3 y 4: YouTube Trending Pipeline
 #  Big Data Tools · Universidad de La Sabana
 # ─────────────────────────────────────────────────────────
 
