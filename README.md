@@ -10,15 +10,15 @@ organizado en tres partes y orquestado con **Prefect**.
 
 ```
 youtube_pipeline/
-├── main_pipeline.py          ← Entry point: ejecuta TODO el pipeline
-├── parte1_pipeline.py        ← Parte I:   ETL con Prefect
-├── parte2_dashboard.py       ← Parte II:  Dashboard Plotly
-├── parte3_mongodb_geo_corr.py← Parte III: MongoDB + Geo + Correlación
-├── requirements.txt          ← Dependencias
-├── .env                      ← (crear manualmente) con MONGO_URI
+├── main_pipeline.py           - Entry point: ejecuta TODO el pipeline
+├── parte1_pipeline.py         - Parte I:   ETL con Prefect
+├── parte2_dashboard.py        - Parte II:  Dashboard Plotly
+├── parte3_mongodb_geo_corr.py - Parte III: MongoDB + Geo + Correlación
+├── requirements.txt           - Dependencias
+├── .env                       - (crear manualmente) con MONGO_URI
 └── data/
-    ├── staging/              ← CSVs y JSONs descargados de Kaggle
-    └── processed/            ← Dataset procesado + dashboards HTML
+    ├── staging/               - CSVs y JSONs descargados de Kaggle
+    └── processed/             - Dataset procesado + dashboards HTML
 ```
 
 ---
